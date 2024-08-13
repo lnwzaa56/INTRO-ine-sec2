@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.flex-responsive{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    text-align: center;
+}
+.Flex-item-left{
+    background-color: #ec5a16;
+    padding: 10px;
+    flex: 50%;
+}
+.Flex-item-right{
+    background-color: #6429e2;
+    padding: 10px;
+    flex: 50%;
+}
+@media (max-width:500px){
+    .flex-responsive{
+        flex-direction: column;
+    }
+}

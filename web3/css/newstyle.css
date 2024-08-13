@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+aside{
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+header{
+    border: 2px solid red;
+    text-align: center;
+    padding: 0px;
+}
+
+aside{
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+
+}
+article{
+    border: 2px solid blue
+    
+    
+    
+}
+footer{
+    grid-area: footer;
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+
